@@ -8,7 +8,13 @@ func main() {
 	fmt.Println("Hello World"[1])
 	fmt.Println("Hello " + "World")
 	fmt.Println("Hello ", "World")
-	fmt.Println("\nBooleans:\n")
+	fmt.Println(`
+
+Hello
+
+World
+`)
+	fmt.Println("\nBooleans:")
 	fmt.Println(true && false)
 	fmt.Println(false || true)
 	fmt.Println(!true)
