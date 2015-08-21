@@ -42,4 +42,7 @@ func main() {
 		c = "together"
 	)
 	fmt.Println(a, b, c)
+
+	var empty int
+	fmt.Println("Empty int evaluates to:", empty)
 }
