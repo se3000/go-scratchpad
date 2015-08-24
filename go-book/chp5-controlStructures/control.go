@@ -22,8 +22,7 @@ func main() {
 	}
 
 	fmt.Println("\nswitch:")
-	l := 0
-	for l < 5 {
+	for l := 0; l < 5; l++ {
 		switch l {
 		case 0:
 			fmt.Println("Zero")
@@ -36,6 +35,5 @@ func main() {
 		case 4:
 			fmt.Println("Four")
 		}
-		l++
 	}
 }
