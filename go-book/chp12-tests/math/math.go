@@ -1,7 +1,8 @@
 package math
 
 //symlinked into GOPATH via something like:
-//ln -s $GOPATH/src/go-book/chp11-packages/math ~/workspace/go-scratchpad/go-book/chp11-packages/math/
+//ln -s /Users/se/workspace/go-scratchpad/ $GOPATH/src
+//note: always use absolute paths with symlinks
 
 //Finds the average of a series of numbers
 func Average(xs []float64) float64 {
